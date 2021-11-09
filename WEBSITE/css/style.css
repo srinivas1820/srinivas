@@ -1,0 +1,36 @@
+*/
+
+*/
+.bdy{
+    background-image: url(./2.png);
+}
+
+header{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient ( to left,#fff ,#c3f5ff);
+}
+ 
+.navsection{
+    width: 100%;height: 20%;background-color: chartreuse;
+    display: flex;justify-content:space-around;
+    align-items: center;
+    background-image: linear-gradient ( to left,#fff ,#c3f5ff 20%);
+}
+.logo{
+    width: 40%;
+    color: #fff;
+    background-image: linear-gradient(#8d98e3 40%,#854fee 20%);
+padding-left: 100px;
+box-sizing: border-box;
+}
+.logoh1{
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    animation:srav Dentals 2s linear infinite;
+}
+@keyframes srav Dentals{
+    from{padding-left:40px;}
+    to{padding-right: 40px;}
+}
+
