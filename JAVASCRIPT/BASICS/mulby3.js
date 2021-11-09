@@ -1,5 +1,5 @@
 var a=9
-if(a%3==0)
+if(a%3===0)
 {
     console.log("yes it is A MULTIPLE OF 3")
 }
